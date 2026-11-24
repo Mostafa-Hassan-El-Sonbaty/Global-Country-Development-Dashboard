@@ -19,11 +19,11 @@ The raw file needed some work before it was usable.
 - A custom column, Data Completeness %, shows how many of six key indicators are filled in for each country.
 - Missing values stay as null. Replacing them with 0 would pull every average down, and DAX already ignores blanks.
 
-&#91;image: The M query in the Power Query Advanced Editor\]
+![The M query in the Power Query Advanced Editor](Picture1.png)
 
 *The start of the M query in the Advanced Editor: source, headers, skipped type row, kept columns and renames.*
 
-&#91;image: Applied steps of the Countries query\]
+![Applied steps of the Countries query](Picture2.png)
 
 *The 13 applied steps of the Countries query.*
 
@@ -52,7 +52,7 @@ There is one main table, Countries, plus three small helper tables: \_Measures (
 
 GDP per Capita (Weighted) divides total GDP by the population of only those countries that actually have a GDP figure, so missing data does not distort it.
 
-&#91;image: Measures and columns in the Data pane\]
+![Measures and columns in the Data pane](Picture3.png)
 
 *Measures in the \_Measures table (left) and the Countries columns, calculated ones included (right).*
 
@@ -88,23 +88,23 @@ The report uses a custom dark teal theme (JSON) and a 1280 x 720 canvas.
 
 ### Screenshots
 
-&#91;image: Summary page\]
+![Summary page](Picture4.png)
 
 *Summary page, with the Analysis I view (scatter) selected.*
 
-&#91;image: Country Analysis page\]
+![Country Analysis page](Picture5.png)
 
 *Country Analysis: map, exporters against importers, trade balance and the economic matrix.*
 
-&#91;image: Comparison page\]
+![Comparison page](Picture6.png)
 
 *Comparison page. The detailed table carries the data bars, icons and colour scale.*
 
-&#91;image: Country Detail page\]
+![Country Detail page](Picture7.png)
 
 *Country Detail, opened by drill-through from China.*
 
-&#91;image: Tooltip on the map\]
+![Tooltip on the map](Picture8.png)
 
 *The Tooltip page showing when hovering over Egypt on the map.*
 
@@ -133,7 +133,7 @@ I recorded the Summary page (21 visuals including buttons and slicers) with Perf
 | Income vs life expectancy scatter | 245 ms |
 | Buttons, slicers, text box | 124 to 141 ms |
 
-&#91;image: Performance Analyzer results\]
+![Performance Analyzer results](Picture9.png)
 
 *Performance Analyzer results for the Summary page.*
 
