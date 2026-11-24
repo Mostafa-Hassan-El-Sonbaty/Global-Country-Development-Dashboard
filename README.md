@@ -19,7 +19,7 @@ The raw file needed some work before it was usable.
 - A custom column, Data Completeness %, shows how many of six key indicators are filled in for each country.
 - Missing values stay as null. Replacing them with 0 would pull every average down, and DAX already ignores blanks.
 
-![The M query in the Power Query Advanced Editor](Picture1.png)
+![The M query in the Power Query Advanced Editor](Pictures/Picture1.png)
 
 *The start of the M query in the Advanced Editor: source, headers, skipped type row, kept columns and renames.*
 
