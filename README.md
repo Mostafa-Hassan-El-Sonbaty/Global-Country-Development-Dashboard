@@ -1,8 +1,5 @@
 # Global Country Development Dashboard
 
-Mini Project 4: Advanced Power BI Dashboard & Data Modeling
-
-Mostafa Hassan
 
 ## 1. Overview
 
